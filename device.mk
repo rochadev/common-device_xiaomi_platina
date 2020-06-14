@@ -63,7 +63,6 @@ PRODUCT_COPY_FILES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    init.panel_info.sh \
     init.device.rc
 
 # Screen density

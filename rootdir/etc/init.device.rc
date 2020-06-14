@@ -36,8 +36,3 @@ on boot
 # Camera ID
     setprop persist.vendor.camera.exif.model "Mi 8 Lite"
     setprop persist.sys.exif.model "Mi 8 Lite"
-
-service panel-info-sh /system/bin/sh /system/vendor/etc/init.panel_info.sh
-    class core
-    user root
-    oneshot

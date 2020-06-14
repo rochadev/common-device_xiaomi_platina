@@ -1,3 +1,0 @@
-# Sensors
-/(vendor|system/vendor)/bin/init\.panel_info\.sh    u:object_r:qti_init_shell_exec:s0
-

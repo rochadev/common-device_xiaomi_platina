@@ -60,6 +60,16 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.device.rc
 
+# Display
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sf.lcd_density=440
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.display.ad=1 \
+    ro.vendor.display.ad.sdr_calib_data=/system/vendor/etc/sdr_config.cfg \
+    ro.vendor.display.ad.hdr_calib_data=/system/vendor/etc/hdr_config.cfg \
+    ro.vendor.display.sensortype=2    
+
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi

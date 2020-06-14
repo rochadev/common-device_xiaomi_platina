@@ -82,18 +82,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.multisim.config=dsds
 
-# DPI
-PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.display.lcd_density=392
-
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.iwlan.enable=true \
     persist.vendor.radio.data_con_rprt=1
-    
-# AD and sensor config
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.display.ad=1 \
-    ro.vendor.display.ad.sdr_calib_data=/vendor/etc/sdr_config.cfg \
-    ro.vendor.display.ad.hdr_calib_data=/vendor/etc/hdr_config.cfg \
-    ro.vendor.display.sensortype=2

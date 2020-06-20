@@ -2,12 +2,10 @@
 vendor/bin/audioflacapp
 vendor/firmware/dbmd4_va_fw.bin
 vendor/firmware/voice_amodel.bin
-etc/firmware/tfa98xx_aac.cnt
-etc/firmware/tfa98xx_goer.cnt
-vendor/lib/libaudioconfigstore.so
+vendor/firmware/tfa98xx_aac.cnt
+vendor/firmware/tfa98xx_goer.cnt
 vendor/lib/libaudioroute_ext.so
 -vendor/lib/libaudio_log_utils.so
-vendor/lib64/libaudioconfigstore.so
 vendor/lib64/libaudioroute_ext.so
 -vendor/lib64/libaudio_log_utils.so
 vendor/lib/hw/audio.primary.sdm660.so
@@ -1832,11 +1830,6 @@ vendor/lib/libois_lc898122.so
 vendor/etc/qdcm_calib_data_boe_fhd_video_dsi_panel.xml
 vendor/etc/qdcm_calib_data_csot_fhd_video_dsi_panel.xml
 vendor/etc/qdcm_calib_data_tianma_fhd_video_dsi_panel.xml
-vendor/etc/boe_fhd_video_dsi_panel_mi.xml
-vendor/etc/csot_fhd_video_dsi_panel_mi.xml
-vendor/etc/tianma_fhd_video_dsi_panel_mi.xml
-vendor/etc/sdr_config.cfg
-vendor/etc/hdr_config.cfg
 
 # Fingerprint sensor
 -vendor/app/QFingerprintService/QFingerprintService.apk
@@ -1861,17 +1854,9 @@ vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
-vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
 vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc
 vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib/libqtikeymaster4.so
 vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib64/libqtikeymaster4.so
-
-# Keystore
-vendor/lib64/libkeystore-engine-wifi-hidl.so
-vendor/lib64/libkeystore-wifi-hidl.so
-vendor/lib64/vendor.qti.hardware.wifi.keystore@1.0.so
 
 # Thermal
 vendor/etc/thermal-engine-sdm660-camera.conf
